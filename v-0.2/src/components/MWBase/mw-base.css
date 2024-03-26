@@ -1,0 +1,20 @@
+.mw-base-icon > img {
+    width: calc(var(--img-base-width) * var(--weather-image-scale) * 90vw);
+    height: calc(var(--img-base-height) * var(--weather-image-scale));
+
+    margin-top: 20px;
+    margin-bottom: -50px;
+
+    max-width: 100%;
+}
+
+.mw-base-icon > h2 {
+    font-size: calc(var(--base-font-size) * 3);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.mw-temperature {
+    margin-top: 20px;
+    font-size: calc(var(--base-font-size) * 3);
+    color: rgba(255, 255, 255, 0.9);
+}

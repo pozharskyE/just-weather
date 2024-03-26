@@ -1,0 +1,16 @@
+.w-hours-fc-el {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.w-hours-fc-el > div {
+    font-size: var(--base-font-size);
+    color: rgba(255, 255, 255, 0.8);
+}

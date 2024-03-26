@@ -1,0 +1,43 @@
+.mini-widgets-carousel .swiper-slide {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(250, 235, 215, 0.05);
+    border-radius: 10%;
+
+    max-height: 300px;
+    min-height: 300px;
+
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.mini-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 20px auto;
+    /* padding: 30px auto; */
+}
+
+.mini-widget-icon > img {
+    min-width: calc(var(--img-base-width) * 2);
+    margin-bottom: -20px;
+}
+
+.mini-widget-icon > h2 {
+    font-size: calc(var(--base-font-size) * 1.4);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.mini-widget-temperature {
+    font-size: calc(var(--base-font-size) * 1.4);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+.mini-widget > p {
+    font-size: var(--base-font-size);
+    color: rgba(255, 255, 255, 0.7);
+}

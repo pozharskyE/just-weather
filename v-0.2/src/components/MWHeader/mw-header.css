@@ -1,0 +1,10 @@
+.m-w-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.m-w-header > div {
+    font-size: calc(var(--base-font-size) * 2);
+    color: rgba(255, 255, 255, 0.5);
+}

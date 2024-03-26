@@ -1,0 +1,5 @@
+.w-hours-fc-swiper .swiper-slide {
+    background-color: rgba(250, 235, 215, 0.05);
+    border-radius: 10%;
+    min-block-size: 250px;
+}

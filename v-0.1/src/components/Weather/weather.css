@@ -1,0 +1,23 @@
+:root {
+    --weather-image-scale: 7;
+    --base-font-size: 20px;
+    --img-base-width: 64px;
+    --img-base-height: 48px;
+    --img-height-by-width: calc(var(--img-base-height) / var(--img-base-width));
+}
+
+.weather-container {
+    margin: auto;
+    width: 95vw;
+    height: 95vh;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.weather-img {
+    width: calc(var(--img-base-width) * var(--weather-image-scale) * 90vw);
+    height: calc(var(--img-base-height) * var(--weather-image-scale));
+
+    margin-top: 10px;
+    margin-bottom: -30px;
+}

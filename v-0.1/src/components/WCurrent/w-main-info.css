@@ -1,0 +1,16 @@
+.w-main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.w-main-info-description {
+    font-size: calc(var(--base-font-size) * 3);
+}
+
+.w-main-info-temperature {
+    font-size: calc(var(--base-font-size) * 4);
+}

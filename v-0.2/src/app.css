@@ -1,0 +1,26 @@
+:root {
+    --weather-image-scale: 7;
+    --base-font-size: 20px;
+    --img-base-width: 64px;
+    --img-base-height: 48px;
+    --img-height-by-width: calc(var(--img-base-height) / var(--img-base-width));
+    --swiper-navigation-color: rgba(255, 255, 255, 0.8);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(47, 90, 244, 1), rgba(15, 162, 171, 1));
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    margin: auto;
+}
