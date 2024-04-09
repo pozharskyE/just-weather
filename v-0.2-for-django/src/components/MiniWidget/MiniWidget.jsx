@@ -19,7 +19,7 @@ function MiniWidget(props) {
                 measureUnit={props.temperatureUnit}
             />
             
-            <p>{props.precipitationProb > 10 ? `🌧️ ${props.precipitationProb} %` : ''}</p>
+            <p>{props.precipitationProb > 20 ? `🌧️ ${props.precipitationProb} %` : ''}</p>
         </div>
     );
 }

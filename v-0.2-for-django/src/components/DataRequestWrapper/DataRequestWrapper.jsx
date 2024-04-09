@@ -5,7 +5,7 @@ import {MainWidget, MiniWidgetsCarousel} from "./..";
 
 function DataRequestWrapper() {
     const [weatherData, setWeatherData] = useState();
-    const [iconsFolder, setIconsFolder] = useState(process.env.PUBLIC_URL + "icons/animated/");
+    const [iconsFolder, setIconsFolder] = useState("/static/icons/animated/");
 
     // ---------- Fetching data ----------
     useEffect(function () {
